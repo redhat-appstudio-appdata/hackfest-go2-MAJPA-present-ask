@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: hackfest-devfile-sample-go-basic-kz2y
     spec:
       containers:
-      - image: quay.io/redhat-appstudio/user-workload@sha256:ab6ddc94baaea1d1b247c555f927b24ef108009147ea3348d7c037ed47c5c7c5
+      - image: quay.io/redhat-appstudio/user-workload@sha256:9788ff436883bd6695390b0ed798ec1aa274906790c7fe2a24c929f012c514ce
         name: my-go
         ports:
         - containerPort: 8081
